@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/prepend-react-dom.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/prepend-react-dom/)
+
 # prependReactDOM
 
 Prepend React DOM Node to an element.
