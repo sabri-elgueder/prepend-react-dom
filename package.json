@@ -14,10 +14,9 @@
     "react",
     "react-dom"
   ],
-  "author": "Towry Wang",
+  "author": "Sabri El Gueder",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/towry/prepend-react-dom/issues"
     "url": "https://github.com/sabri-elgueder/prepend-react-dom/issues"
   },
   "homepage": "https://github.com/sabri-elgueder/prepend-react-dom#readme",
