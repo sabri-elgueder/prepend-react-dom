@@ -20,7 +20,7 @@ module.exports = function prependReactDOM(Component, el, props, done) {
 	el.forEach(function (dom) {
 		let div = document.createElement('div');
 		let r = ReactDOM.render(React.createElement(Component, props, null), div, function () {
-			dom.append(ReactDOM.findDOMNode(this));
+			dom.insertBefore(ReactDOM.findDOMNode(this));
 			typeof done === 'function' && done();
 		});
 	});
